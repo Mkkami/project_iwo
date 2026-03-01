@@ -69,7 +69,25 @@ Problem związany z .... dotyczący... co powoduje ... można rozwiązać ...
 
 ## 3.3 Cechy funkcjonalne
 
+F03: System powinien umożliwiać tworzenie i zarządzanie profilami postaci.
+| Typ: _funkcjonalne_ | Wersja: 1.0 (01.03.2026) | Odpowiedzialny: TWOJE-IMIE |
+| :--- | :--- | :--- |
+| Priorytet i trudność: Kluczowe || Wydanie: 1.0 |
+| Zaimplementowanie funkcjonalności umożliwiającej użytkownikowi tworzenie profili postaci do gry LARP. Użytkownik powinien móc zdefiniować podstawowe atrybuty postaci (imię, klasa/rasa np. elf, krasnoludm rycerz, poziom doświadczenia), dodać opis biografii, oraz przypisać do postaci ekwipunek i statystyki. System powinien również umożliwiać edycję istniejących postaci oraz ich usuwanie. Każda postać powinna być powiązana z kontem użytkownika, który ją stworzył. |
 
+
+F04: System powinien umożliwiać przeglądanie historii uczestnictwa w wydarzeniach wraz ze statystykami.
+| Typ: _funkcjonalne_ | Wersja: 1.0 (01.03.2026) | Odpowiedzialny: TWOJE-IMIE |
+| :--- | :--- | :--- |
+| Priorytet i trudność: Istotne || Wydanie: 1.0 |
+| Zaimplementowanie sekcji pozwalającej użytkownikowi na przeglądanie pełnej historii wydarzeń LARP, w których brał udział. System powinien wyświetlać listę wydarzeń z podstawowymi informacjami (data, nazwa, lokalizacja, odegrana postać), a także prezentować zagregowane statystyki takie jak: liczba ukończonych sesji, najczęściej grane role, ulubione scenariusze, średni czas trwania uczestnictwa. Historia powinna być sortowalna według daty i filtrowalna według typu wydarzenia. |
+
+
+F05: System powinien umożliwiać zarządzanie profilem użytkownika.
+| Typ: _funkcjonalne_ | Wersja: 1.0 (01.03.2026) | Odpowiedzialny: TWOJE-IMIE |
+| :--- | :--- | :--- |
+| Priorytet i trudność: Kluczowe || Wydanie: 1.0 |
+| Zaimplementowanie panelu zarządzania profilem użytkownika, który pozwala na edycję danych osobowych (imię, nazwisko, email, numer telefonu), dodanie lub zmianę zdjęcia profilowego, oraz konfigurację preferencji systemowych. Preferencje powinny obejmować: ustawienia powiadomień (email, SMS, push), preferencje dotyczące typów wydarzeń LARP (fantasy, sci-fi, horror), preferowane dni i godziny uczestnictwa, oraz ustawienia prywatności określające widoczność profilu dla innych użytkowników. |
 
 
 
