@@ -3,10 +3,10 @@
 ## System wpierający organizację komnatowych wydarzeń LARP
 
 **Redaktor:** zespół projektu  
-**Status:**  
+**Status:**
 
 **Wersja:** 1.0  
-**Data modyfikacji:** 26.02.2026   
+**Data modyfikacji:** 26.02.2026
 
 **Abstrakt:**  
 Dokument zawiera specyfikację wymagań dla systemu wpierającego organizację komnatowych wydarzeń LARP składającą się z wizji systemu, wymagań użytkownika oraz wymagań oprogramowania dla pierwszych iteracji projektu.
@@ -22,9 +22,11 @@ Dokument zawiera specyfikację wymagań dla systemu wpierającego organizację k
 # 1. Wprowadzenie
 
 ## 1.1 Cel dokumentu
+
 Tutaj znajdzie się opis celu dokumentu...
 
 ## 1.2 Streszczenie dla kierownictwa
+
 Tutaj znajdzie się streszczenie dla kierownictwa...
 
 ---
@@ -41,14 +43,15 @@ Tutaj znajdzie się streszczenie dla kierownictwa...
 
 ## 3.1 Opis problemu
 
-**Diagram:** Opis problemu  
+**Diagram:** Opis problemu
 
-**P001: Problem obsługi klientów**  
-- Typ: «Wizja»  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność: Istotne 1  
-- Wydanie: 1.0  
+**P001: Problem obsługi klientów**
+
+- Typ: «Wizja»
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność: Istotne 1
+- Wydanie: 1.0
 
 Problem związany z .... dotyczący... co powoduje ... można rozwiązać ...
 
@@ -56,63 +59,67 @@ Problem związany z .... dotyczący... co powoduje ... można rozwiązać ...
 
 ## 3.2 Interesariusze
 
-**Diagram:** Interesariusze  
+**Diagram:** Interesariusze
 
-**Właściciel sieci ASO**  
-- Typ: «interesariusz»  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność:  
-- Wydanie: 1.0  
+**Właściciel sieci ASO**
+
+- Typ: «interesariusz»
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność:
+- Wydanie: 1.0
 
 ---
 
 ## 3.3 Cechy funkcjonalne
 
+F08: System powinien umożliwiać zarządzanie rolami i zasobami gry.
+| Typ: _funkcjonalne_ | Wersja: 1.0 (02.03.2026) | Odpowiedzialny: Tomasz2004 |
+| :--- | :--- | :--- |
+| Priorytet i trudność: Kluczowe || Wydanie: 1.0 |
+| Zaimplementowanie modułu pozwalającego organizatorom przypisywanie ról, przedmiotów oraz statystyk do konkretnych kont graczy, a graczom na ich podgląd w czasie rzeczywistym. |
 
-
-
-
-
-
-
+F09: System powinien umożliwiać interakcję z otoczeniem poprzez kody QR.
+| Typ: _funkcjonalne_ | Wersja: 1.0 (02.03.2026) | Odpowiedzialny: Tomasz2004 |
+| :--- | :--- | :--- |
+| Priorytet i trudność: Istotne || Wydanie: 1.0 |
+| Zaimplementowanie w aplikacji mobilnej skanera kodów QR, który pozwoli graczom na wchodzenie w interakcję z fizycznymi elementami gry. Po zeskanowaniu kodu system powinien wyświetlić opis obiektu, dodać przedmiot do ekwipunku lub uruchomić przypisaną akcję fabularną. |
 
 ---
 
 ## 3.4 Cechy jakościowe
 
-
-
-
-
-
-
-
-
+J03: System powinien zapewniać dostępność interfejsu mobilnego w trybie offline.
+| Typ: _jakościowe_ | Wersja: 1.0 (02.03.2026) | Odpowiedzialny: Tomasz2004 |
+| :--- | :--- | :--- |
+| Priorytet i trudność: Istotne || Wydanie: 1.0 |
+| Zapewnienie ciągłości działania kluczowych funkcji aplikacji (podgląd karty postaci, historia akcji) w warunkach braku połączenia z siecią. System musi lokalnie przechowywać najważniejsze dane i przeprowadzać synchronizację z serwerem natychmiast po odzyskaniu dostępu do Internetu. |
 
 ---
 
 ## 3.5 Słownik
 
-**Diagram:** Słownik  
+**Diagram:** Słownik
 
-**Model samochodu**  
-- Typ:  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność:  
-- Wydanie: 1.0  
+**Model samochodu**
 
-dokładny opis samochodów o tych samych parametrach  
+- Typ:
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność:
+- Wydanie: 1.0
 
-**Samochód**  
-- Typ:  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność:  
-- Wydanie: 1.0  
+dokładny opis samochodów o tych samych parametrach
 
-konkretny egzemplarz danego modelu samochodu  
+**Samochód**
+
+- Typ:
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność:
+- Wydanie: 1.0
+
+konkretny egzemplarz danego modelu samochodu
 
 ---
 
@@ -122,109 +129,123 @@ konkretny egzemplarz danego modelu samochodu
 
 ### 4.1.1 Zarządzanie ofertą
 
-**Diagram:** Zarządzanie ofertą  
+**Diagram:** Zarządzanie ofertą
 
-**PU001: Dodanie nowego samochodu**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność: Istotne 1  
-- Wydanie: 1.0  
+**PU001: Dodanie nowego samochodu**
 
-**PU002: Przejrzenie cennika**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Priorytet i trudność: Istotne 1  
-- Wydanie: 1.0  
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność: Istotne 1
+- Wydanie: 1.0
 
-**PU003: Wygenerowanie raportu sprzedaży**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+**PU002: Przejrzenie cennika**
 
-**PU004: Zmiana ceny samochodu**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Priorytet i trudność: Istotne 1
+- Wydanie: 1.0
+
+**PU003: Wygenerowanie raportu sprzedaży**
+
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
+
+**PU004: Zmiana ceny samochodu**
+
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
 
 ---
 
 ### 4.1.2 Zarządzanie sprzedażą
 
-**Diagram:** Specyfikowanie wymagań użytkownika  
+**Diagram:** Specyfikowanie wymagań użytkownika
 
-**PU101: Dokonanie płatności online**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+**PU101: Dokonanie płatności online**
 
-**PU102: Dokonanie zamówienia na samochód**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
 
-**PU103: Pokazanie listy samochodów**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+**PU102: Dokonanie zamówienia na samochód**
 
-**PU104: Potwierdzenie zamówienia na samochód**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
 
-**PU105: Przejrzenie listy zamówień**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+**PU103: Pokazanie listy samochodów**
 
-**PU106: Wydanie samochodu do sprzedaży**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
 
-**PU107: Zarejestrowanie wydania samochodu**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+**PU104: Potwierdzenie zamówienia na samochód**
 
-**PU108: Złożenie zamówienia specjalnego**  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: kamil  
-- Wydanie: 1.0  
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
+
+**PU105: Przejrzenie listy zamówień**
+
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
+
+**PU106: Wydanie samochodu do sprzedaży**
+
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
+
+**PU107: Zarejestrowanie wydania samochodu**
+
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
+
+**PU108: Złożenie zamówienia specjalnego**
+
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: kamil
+- Wydanie: 1.0
 
 ---
 
 ## 4.2 Wymagania jakościowe i ograniczenia
 
-**Diagram:** Wymagania jakościowe i ograniczenia  
+**Diagram:** Wymagania jakościowe i ograniczenia
 
-**J022-1: Maksymalna liczba kliknięć w celu otwarcia formularza awarii**  
-- Typ: «Uzytecznosc»  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność: Przydatne 1  
-- Wydanie: 1.0  
+**J022-1: Maksymalna liczba kliknięć w celu otwarcia formularza awarii**
+
+- Typ: «Uzytecznosc»
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność: Przydatne 1
+- Wydanie: 1.0
 
 **Sposób pomiaru:**  
-Przeprowadzenie serii nawigacji do ekranu formularza awarii z różnych miejsc w interfejsie użytkownika, zgodnie ze scenariuszem TS112  
+Przeprowadzenie serii nawigacji do ekranu formularza awarii z różnych miejsc w interfejsie użytkownika, zgodnie ze scenariuszem TS112
 
 **Oczekiwane wartości:**  
-liczba kliknięć dla 90% sytuacji wynosi mniej niż 3; dla wszystkich sytuacji wynosi mniej niż 5  
+liczba kliknięć dla 90% sytuacji wynosi mniej niż 3; dla wszystkich sytuacji wynosi mniej niż 5
 
 ---
 
-**J022-2: Rejestracja awarii powinna trwać średnio nie dłużej niż minutę**  
-- Typ: «Uzytecznosc»  
-- Wersja: 1.0 (15.02.2023)  
-- Odpowiedzialny: smial  
-- Priorytet i trudność: Istotne 1  
-- Wydanie: 1.0  
+**J022-2: Rejestracja awarii powinna trwać średnio nie dłużej niż minutę**
+
+- Typ: «Uzytecznosc»
+- Wersja: 1.0 (15.02.2023)
+- Odpowiedzialny: smial
+- Priorytet i trudność: Istotne 1
+- Wydanie: 1.0
 
 **Sposób pomiaru:**  
-Przeprowadzenie serii rejestracji zgodnie ze scenariuszem TS003 (…)  
+Przeprowadzenie serii rejestracji zgodnie ze scenariuszem TS003 (…)
 
 **Oczekiwane wartości:**  
-średni czas wynosi < 1 min, maksymalny czas wynosi (…)  
+średni czas wynosi < 1 min, maksymalny czas wynosi (…)
 
 ---
 
@@ -232,25 +253,25 @@ Przeprowadzenie serii rejestracji zgodnie ze scenariuszem TS003 (…)
 
 ### 4.3.1 Aktorzy
 
-- Kierownik  
-- Klient  
-- Magazynier  
-- SI Producenta  
-- SI Płatności  
-- Sprzedawca  
+- Kierownik
+- Klient
+- Magazynier
+- SI Producenta
+- SI Płatności
+- Sprzedawca
 
 ---
 
 ### 4.3.2 Słownik dziedziny
 
-- Cennik  
-- Dodatek  
-- Dodatkowa pozycja cennika  
-- Model samochodu  
-- Podstawowa pozycja cennika  
-- Pozycja cennika  
-- Samochód  
-- Zamówienie na samochód  
+- Cennik
+- Dodatek
+- Dodatkowa pozycja cennika
+- Model samochodu
+- Podstawowa pozycja cennika
+- Pozycja cennika
+- Samochód
+- Zamówienie na samochód
 
 ---
 
@@ -260,10 +281,10 @@ Przeprowadzenie serii rejestracji zgodnie ze scenariuszem TS003 (…)
 
 **Scenariusz główny**
 
-1. Aktor wybiera opcję  
-2. System wyświetla ekran  
+1. Aktor wybiera opcję
+2. System wyświetla ekran
 
-**Diagram:** Dodanie nowego samochodu - scenopis  
+**Diagram:** Dodanie nowego samochodu - scenopis
 
 ---
 
@@ -271,8 +292,8 @@ Przeprowadzenie serii rejestracji zgodnie ze scenariuszem TS003 (…)
 
 **Scenariusz główny**
 
-1. Aktor wybiera opcję  
-2. System wyświetla ekran  
+1. Aktor wybiera opcję
+2. System wyświetla ekran
 
 ---
 
@@ -280,11 +301,11 @@ Przeprowadzenie serii rejestracji zgodnie ze scenariuszem TS003 (…)
 
 **Scenariusz główny**
 
-1. Aktor wybiera opcję  
-2. System wyświetla okno  
-3. System zapisuje dane  
+1. Aktor wybiera opcję
+2. System wyświetla okno
+3. System zapisuje dane
 
 **Błąd danych**
 
 1-2. -"-  
-3a. System wyświetla komunikat  
+3a. System wyświetla komunikat
